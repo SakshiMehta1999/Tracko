@@ -1,0 +1,264 @@
+ body{
+	/* background-image: url(../images/4.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	/* position: relative; */
+	}
+
+#cmpnm{
+	border: 0.5px dashed black;
+	background-color: #e1e1e1;
+	/* margin-top: 80px; */
+	margin: 80px auto;
+	/* height: 60px; */
+	width: 40%;
+	color: black;
+	opacity: 0.5;
+	text-align: center;
+	/* padding: 10px; */
+	font-size: 45px;
+	font-family: verdana;
+	}
+
+#abreg{
+    display: none;
+	/* border: 1px solid black; */
+	/* width: 100px; */
+	margin-left: 25%;
+	width: 350px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px 2px ;
+	}
+
+#X{
+	float: right;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+    }
+#X:hover{
+	background-color: white;
+	color: black;
+	}
+
+.area{
+	  width: 300px;
+	  line-height: 2;
+	  margin: 10px;
+	  border-radius: 4px;
+	  padding: 2px;
+	}
+
+#sub{
+	margin-left: 40%;
+	background-color: black;
+	color: white;
+	}
+
+#sub:hover{
+	background-color: white;
+	color: black;
+	}
+
+
+#abreg1{
+	display: none;
+	/* border: 1px solid black; */
+	/* width: 100px; */
+	margin-left: 25%;
+	width: 350px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px 2px ;
+	}
+
+#X1{
+	float: right;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+    }
+#X1:hover{
+	background-color: white;
+	color: black;
+	}
+
+#abreg2{
+	display: none;
+	/* border: 1px solid black; */
+	/* width: 100px; */
+	margin-left: 25%;
+	width: 350px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px 2px ;
+	}
+
+#X2{
+	float: right;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+    }
+#X2:hover{
+	background-color: white;
+	color: black;
+	}
+
+
+#abreg3{
+	display: none;
+	/* border: 1px solid black; */
+	/* width: 100px; */
+	margin-left: 35%;
+	width: 350px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px 2px ;
+	}
+
+#X3{
+	float: right;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+    }
+#X3:hover{
+	background-color: white;
+	color: black;
+	}
+	
+#log{
+	background-color: #99ccff;
+	}
+
+#mySidenav a {
+    font-family: verdana;
+    position: absolute;  
+    text-align: center;
+    padding: 15px; 
+    width: 300px; 
+    text-decoration: none; 
+    font-size: 17px	; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+	
+}
+
+
+#ab {
+    top: 200px;
+    background-color: #4CAF50;
+	cursor: pointer;
+}
+
+#aj {
+    top: 270px;
+    background-color: #2196F3; 
+	cursor: pointer;
+}
+
+#in {
+    top: 340px;
+    background-color: #f44336;
+	cursor: pointer;
+}
+
+
+#db {
+    top: 410px;
+    background-color: #f4c259;
+	cursor: pointer;
+}
+
+#right_side_bar{
+	border: 1px solid white;
+    margin-top: 200px;
+	height: 40%;
+	width: 25%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	opacity: 0.8;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-top: 40px;
+	padding-left: 10px;
+	text-align: left;
+	color: white;
+	font-family: verdana;
+	}
+
+#btn{
+	position: absolute;
+    left: 43%;
+	top: 40%;
+    background-color: #f29466;
+    border: 2px solid #555555;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#btn:hover{
+	color: white;
+	background-color: black;
+	}
+
+#table{
+    background-color: #dadada;
+    font-family: verdana;
+	margin: 6% auto;
+	}
+th{
+	text-align: center;
+	}
+
+.register input[type="password"]{
+	  max-width: 400px;
+	  width: 80%;
+	  line-height: 3;
+	  font-family: 'Ubuntu', sans-serif;
+	  margin: 8px 8px;
+	  border-radius: 5px;
+	  border: 2px solid #f2f2f2;
+	  /* outline: none; */
+	  padding-left: 10px;
+	  background-color: #dbdbdb;
+	  }
+
+.register{
+    border: 0.5px solid black;
+	margin: 80px auto;
+	width: 40%;
+	box-shadow: 2px 2px 2px ;
+	padding: 20px;
+	}
+
+#subbt{
+	background-color:#5c5c5c;
+	border-radius: 5px;
+	color: white;
+	font-family: Cursive;
+	border:0.5px solid #5c5c5c;
+    margin-left: 30%;
+	}
+
+#subbt:hover{
+	color:black;
+	background-color:white;
+	}

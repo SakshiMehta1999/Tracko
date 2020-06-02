@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+<listener>
+	<listener-class>listeners.AppListener</listener-class>
+</listener>
+
+<servlet>
+	<servlet-name>traco001</servlet-name>
+	<servlet-class>controllers.RegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco001</servlet-name>
+	<url-pattern>/Register.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>traco002</servlet-name>
+	<servlet-class>controllers.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco002</servlet-name>
+	<url-pattern>/Login.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>traco003</servlet-name>
+	<servlet-class>controllers.RegisterBossServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco003</servlet-name>
+	<url-pattern>/RegisterBoss.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>traco004</servlet-name>
+	<servlet-class>controllers.DeleteAccessServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco004</servlet-name>
+	<url-pattern>/DeleteAccess.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>traco006</servlet-name>
+	<servlet-class>controllers.AddRoomsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco006</servlet-name>
+	<url-pattern>/AddRooms.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>traco005</servlet-name>
+	<servlet-class>controllers.AddDepartmentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco005</servlet-name>
+	<url-pattern>/AddDepartment.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco007</servlet-name>
+	<servlet-class>controllers.RegisterEmployeeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco007</servlet-name>
+	<url-pattern>/RegisterEmployee.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco008</servlet-name>
+	<servlet-class>controllers.AssignTaskServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco008</servlet-name>
+	<url-pattern>/AssignTask.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco009</servlet-name>
+	<servlet-class>controllers.DeleteBossServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco009</servlet-name>
+	<url-pattern>/DeleteBoss.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco010</servlet-name>
+	<servlet-class>controllers.DeleteEmployeeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco010</servlet-name>
+	<url-pattern>/DeleteEmployee.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco011</servlet-name>
+	<servlet-class>controllers.LogoutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco011</servlet-name>
+	<url-pattern>/Logout.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco012</servlet-name>
+	<servlet-class>controllers.ChangePasswordServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco012</servlet-name>
+	<url-pattern>/ChangePassword.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>traco013</servlet-name>
+	<servlet-class>controllers.TrackEmployeeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco013</servlet-name>
+	<url-pattern>/TrackEmployee.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>traco014</servlet-name>
+	<servlet-class>controllers.DeleteAccessServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco014</servlet-name>
+	<url-pattern>/DeleteAccessEmployee.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>traco015</servlet-name>
+	<servlet-class>controllers.AddWorkListServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>traco015</servlet-name>
+	<url-pattern>/WorkList.do</url-pattern>
+</servlet-mapping>
+</web-app>

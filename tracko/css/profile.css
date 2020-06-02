@@ -1,0 +1,22 @@
+#info{
+ background-color: #b6b6b6;
+ opacity: 0.8;
+ border: 0.5px solid black;
+ box-shadow:  2px 2px 5px 2px black;
+ border-radius: 20px;	
+ padding: 10px 10px 10px 10px;
+ margin-left: 30% ;
+ margin-right: 30% ;
+ margin-top: 5% ;
+ }
+
+ #canvas{
+ /* position : relative; */
+ border-radius: 100%;
+ margin-left: 28%;
+ /* opacity: 10; */
+ }
+
+.upload{
+ margin-left: 30%;
+ }
